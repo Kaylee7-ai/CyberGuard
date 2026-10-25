@@ -1,0 +1,4 @@
+ip_address,threat_type,threat_level,risk_score,origin_country
+185.220.101.47,Tor Exit Node - Known Brute Force,Critical,95,Russia
+45.33.32.156,Mirai Botnet C2,High,80,China
+203.0.113.5,Low Risk Scanner,Low,20,US
