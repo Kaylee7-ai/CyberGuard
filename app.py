@@ -7,7 +7,7 @@ print("Connecting to Zetaris AI Data Harness - Zero ETL...")
 
 # Simulate Zetaris Federated Query (Zero Data Movement)
 logs = pd.read_csv('website-logs.csv')
-threats = pd.read_csv('hacker-list.csv')
+threats = pd.read_csv('hacker-logs.csv')
 
 # Federated Intelligence Logic
 failed_counts = logs[logs['action']=='login_failed'].groupby('ip_address').size().reset_index(name='fail_count')
